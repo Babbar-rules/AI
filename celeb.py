@@ -13,8 +13,8 @@ from langchain_core.output_parsers import StrOutputParser
 
 
 
-LANGCHAIN_API_KEY = "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"
-GOOGLE_API_KEY = "AIzaSyAm1fVksAZ6p4OoEFGmdw5JJxpETsiP8Kc"
+LANGCHAIN_API_KEY = ""
+GOOGLE_API_KEY = ""
 
 
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
