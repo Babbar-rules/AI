@@ -1,3 +1,5 @@
+# You will need to enter your respective API keys
+
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -9,8 +11,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-LANGCHAIN_API_KEY = "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"
-GOOGLE_API_KEY = "AIzaSyAm1fVksAZ6p4OoEFGmdw5JJxpETsiP8Kc"
+LANGCHAIN_API_KEY = ""
+GOOGLE_API_KEY = ""
 
 
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
