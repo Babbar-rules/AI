@@ -1,3 +1,6 @@
+# you will need to input your api key
+
+
 from dotenv import load_dotenv
 import streamlit as st  
 import os
@@ -6,7 +9,7 @@ import google.generativeai as genai
 
 load_dotenv()   
 
-genai.configure(api_key="AIzaSyAm1fVksAZ6p4OoEFGmdw5JJxpETsiP8Kc")
+genai.configure(api_key="")
 
 ## function to load gemini pro vision
 
